@@ -1,0 +1,408 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+test-reports/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Application specific files
+logs/
+*.log
+log/
+temp/
+tmp/
+cache/
+
+# Configuration files with sensitive data
+config/local.py
+config/production.py
+config/secrets.py
+secrets.json
+.secrets
+credentials.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+database.db
+local.db
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Kubernetes
+k8s-local/
+kubernetes-local/
+
+# Application data
+data/
+uploads/
+downloads/
+storage/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Node.js (if any frontend tools are used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Security and tokens
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+token
+tokens/
+api_keys/
+github_token
+webhook_secret
+
+# Monitoring and metrics
+prometheus_multiproc_dir/
+metrics/
+monitoring/local/
+
+# Generated documentation
+docs/build/
+docs/_build/
+site/
+
+# Local development
+local/
+dev/
+development/
+sandbox/
+
+# Editor-specific
+.vimrc
+.nvimrc
+
+# Profiling
+*.prof
+profile_output/
+*.pstats
+
+# Memory dumps
+*.dmp
+
+# Core dumps
+core
+core.*
+
+# Application specific - GitHub webhook payloads (may contain sensitive data)
+webhook_payloads/
+sample_payloads/
+test_payloads/*.json
+
+# Application specific - Processing artifacts
+processed_diffs/
+analysis_cache/
+embedding_cache/
+
+# Application specific - Demo data
+demo_data/
+sample_repos/
+
+# FastAPI specific
+.openapi.json
+
+# Uvicorn
+uvicorn.log
+
+# Health check temporary files
+health_check.tmp
+status.tmp
+
+# Local configuration overrides
+local_config.py
+override_settings.py
+
+# Third-party service configurations
+github_app_private_key.pem
+webhook_proxy_url.txt
+ngrok_url.txt
+
+# Testing artifacts
+.coverage.*
+coverage_html_report/
+test_output/
+test_artifacts/
+
+# Temporary development scripts
+temp_*.py
+debug_*.py
+scratch_*.py
+quick_test_*.py
+
+# Local SSL certificates for development
+localhost.pem
+localhost-key.pem
+ssl/
+
+# Application logs with potentially sensitive information
+github_api.log
+webhook_processing.log
+diff_analysis.log
+embedding_service.log
+
+# Performance profiling
+*.performance
+*.trace
+profiling_results/
+
+# Cache directories
+.cache/
+__cache__/
+.pytest_cache/
+.mypy_cache/
+
+# Backup configurations
+*.conf.bak
+*.yaml.bak
+*.yml.bak
+*.json.bak
+
+# Version control patches
+*.patch
+*.diff
+
+# Compiled documentation
+*.chm
+
+# Windows installer files
+*.msi
+*.msm
+*.msp
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+[._]*.un~
+
+# Local environment configuration
+.env.local
+.env.*.local
+local.env
